@@ -1,0 +1,15 @@
+- default:
+  link:
+    relink: true
+
+- clean: ["~"]
+
+- link:
+  ~/.config/nvim:
+    create: true
+    path: nvim
+  ~/.zshrc:
+    force: true
+  ~/.tmux.conf:
+  ~/.tmux:
+    path: tmux

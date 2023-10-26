@@ -7,7 +7,6 @@
     ~/.tmux.conf: tmux.conf
     ~/.tmux:
         path: tmux
-    ~/.gitconfig: gitconfig
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]

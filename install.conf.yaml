@@ -3,7 +3,10 @@
 - link:
     ~/.config/nvim:
         path: config/nvim
-    ~/.zshrc: zshrc
+    ~/.zshrc: 
+        path: zsh/zshrc
+        force: true
+    ~/.oh-my-zsh: zsh/oh-my-zsh
     ~/.tmux.conf: tmux.conf
 
 - shell:

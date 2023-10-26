@@ -5,8 +5,6 @@
         path: config/nvim
     ~/.zshrc: zshrc
     ~/.tmux.conf: tmux.conf
-    ~/.tmux:
-        path: tmux
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]

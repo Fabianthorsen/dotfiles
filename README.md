@@ -5,3 +5,4 @@
 
 ## Setup
 - From `dotfiles/` run `dotbot -c install.conf.yaml` to build links and directories
+- To install tmux plugins press `Ctrl + a` and `I` (captial `i`)

@@ -1,14 +1,14 @@
 - defaults:
-    link: 
+    link:
       relink: true
 
 - clean: ["~"]
 
 - link:
     ~/.config/nvim: config/nvim
-    ~/.zshrc: 
-        path: zsh/zshrc
-        force: true
+    ~/.zshrc:
+      path: zsh/zshrc
+      force: true
     ~/.oh-my-plugins: zsh/oh-my-plugins
     ~/.oh-my-zsh: zsh/oh-my-zsh
     ~/.tmux: tmux
@@ -17,3 +17,4 @@
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
+    - [source ~/.nvm/nvm.sh, Sourcing Node Version Manager]

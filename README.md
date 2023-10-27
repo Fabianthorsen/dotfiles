@@ -1,13 +1,11 @@
 # Fabianthorsen's dotfiles
 ## Requirements
 - Assumes that the shell is `zsh`
-- To automatically generate symlinks use [dotbot](https://github.com/anishathalye/dotbot)
-- `pip install dotbot`
 
 ## Setup
-- From `dotfiles/` run `dotbot -c install.conf.yaml` to build links and directories
-- To install tmux plugins press `Ctrl + a` and `I` (captial `i`)
+- Run `./install`
 
 ## Usage
 - To add new plugins to `oh-my-zsh` or similar, add them as submodules into their plugin folders
 - `oh-my-zsh` by default has `ZSH_CUSTOM=${HOME}/.oh-my-plugins` which is linked to `dotfiles/zsh/plugins`
+- To install tmux plugins press `Ctrl + a` and `I` (captial `i`)

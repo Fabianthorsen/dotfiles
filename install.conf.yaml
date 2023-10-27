@@ -1,7 +1,8 @@
-- clean: ["~"]
+- defaults:
+    link: 
+      relink: true
 
-- shell:
-  - echo Hello before
+- clean: ["~"]
 
 - link:
     ~/.config/nvim: config/nvim
@@ -12,6 +13,7 @@
     ~/.oh-my-zsh: zsh/oh-my-zsh
     ~/.tmux: tmux
     ~/.tmux.conf: tmux.conf
+    ~/.pyenv: pyenv
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]

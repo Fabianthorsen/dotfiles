@@ -17,3 +17,9 @@
 [submodule "tmux/plugins/tpm"]
 	path = tmux/plugins/tpm
 	url = git@github.com:tmux-plugins/tpm.git
+[submodule "zsh/plugins/zsh-z"]
+	path = zsh/plugins/zsh-z
+	url = https://github.com/agkozak/zsh-z
+[submodule "pyenv"]
+	path = pyenv
+	url = https://github.com/pyenv/pyenv.git

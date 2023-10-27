@@ -4,13 +4,13 @@
   - echo Hello before
 
 - link:
-    ~/.config/nvim:
-        path: config/nvim
+    ~/.config/nvim: config/nvim
     ~/.zshrc: 
         path: zsh/zshrc
         force: true
     ~/.oh-my-plugins: zsh/plugins
     ~/.oh-my-zsh: zsh/oh-my-zsh
+    ~/.tmux: tmux
     ~/.tmux.conf: tmux.conf
 
 - shell:

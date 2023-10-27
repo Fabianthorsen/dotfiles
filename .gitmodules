@@ -14,3 +14,6 @@
 [submodule "zsh/plugins/exa-zsh"]
 	path = zsh/plugins/exa-zsh
 	url = git@github.com:MohamedElashri/exa-zsh.git
+[submodule "tmux/plugins/tpm"]
+	path = tmux/plugins/tpm
+	url = git@github.com:tmux-plugins/tpm.git

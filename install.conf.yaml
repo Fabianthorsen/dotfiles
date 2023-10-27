@@ -9,7 +9,7 @@
     ~/.zshrc: 
         path: zsh/zshrc
         force: true
-    ~/.oh-my-plugins: zsh/plugins
+    ~/.oh-my-plugins: zsh/oh-my-plugins
     ~/.oh-my-zsh: zsh/oh-my-zsh
     ~/.tmux: tmux
     ~/.tmux.conf: tmux.conf

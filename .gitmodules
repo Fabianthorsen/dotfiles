@@ -6,19 +6,19 @@
 	path = zsh/oh-my-zsh
 	url = https://github.com/ohmyzsh/ohmyzsh.git
 [submodule "zsh/plugins/zsh-autosuggestions"]
-	path = zsh/plugins/zsh-autosuggestions
+	path = zsh/oh-my-plugins/plugins/zsh-autosuggestions
 	url = git@github.com:zsh-users/zsh-autosuggestions.git
 [submodule "zsh/plugins/zsh-syntax-highlighting"]
-	path = zsh/plugins/zsh-syntax-highlighting
+	path = zsh/oh-my-plugins/plugins/zsh-syntax-highlighting
 	url = git@github.com:zsh-users/zsh-syntax-highlighting.git
 [submodule "zsh/plugins/exa-zsh"]
-	path = zsh/plugins/exa-zsh
+	path = zsh/oh-my-plugins/plugins/exa-zsh
 	url = git@github.com:MohamedElashri/exa-zsh.git
 [submodule "tmux/plugins/tpm"]
 	path = tmux/plugins/tpm
 	url = git@github.com:tmux-plugins/tpm.git
 [submodule "zsh/plugins/zsh-z"]
-	path = zsh/plugins/zsh-z
+	path = zsh/oh-my-plugins/plugins/zsh-z
 	url = https://github.com/agkozak/zsh-z
 [submodule "pyenv"]
 	path = pyenv

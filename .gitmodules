@@ -26,3 +26,6 @@
 [submodule "nvm"]
 	path = nvm
 	url = https://github.com/nvm-sh/nvm.git
+[submodule "config/alacritty/themes"]
+	path = config/alacritty/themes
+	url = https://github.com/alacritty/alacritty-theme

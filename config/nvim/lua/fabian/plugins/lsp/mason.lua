@@ -29,7 +29,6 @@ return {
 			ensure_installed = {
 				"lua_ls",
 				"pyright",
-				"terraformls",
 				"tflint",
 				"taplo",
 				"ruff_lsp",
@@ -44,7 +43,6 @@ return {
 				"stylua", -- lua formatter
 				"isort", -- python formatter
 				"black", -- python formatter
-				"eslint_d", -- js linter
 				"ruff",
 			},
 		})

@@ -28,3 +28,5 @@ opt.clipboard:append("unnamedplus")
 -- Window split
 opt.splitright = true
 opt.splitbelow = true
+
+vim.g.python3_host_prog = "~/.pyenv/versions/"

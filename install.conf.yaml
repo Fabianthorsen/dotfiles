@@ -5,16 +5,16 @@
 - clean: ["~"]
 
 - link:
-    ~/.config/nvim: config/nvim
-    ~/.config/alacritty: config/alacritty
     ~/.zshrc:
       path: zsh/zshrc
       force: true
+    ~/.config/nvim: config/nvim
+    ~/.config/alacritty: config/alacritty
+    ~/.pyenv: pyenv
     ~/.oh-my-plugins: zsh/oh-my-plugins
     ~/.oh-my-zsh: zsh/oh-my-zsh
     ~/.tmux: tmux
     ~/.tmux.conf: tmux.conf
-    ~/.pyenv: pyenv
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]

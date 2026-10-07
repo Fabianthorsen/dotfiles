@@ -4,8 +4,5 @@
 # Line numbers
 --number
 
-# Git modifications indicator
---diff
-
 # Show decorations
---decorations=always
+--decorations=auto

@@ -15,3 +15,5 @@
 # local env files
 .env
 .env.local
+
+**/.claude/.cc-writes/

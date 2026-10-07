@@ -7,6 +7,8 @@ brew "broot"
 brew "btop"
 # Command-line tool to interact with exercism.io
 brew "exercism"
+# Syntax-highlighted pager for diffs
+brew "git-delta"
 # Modern, maintained replacement for ls
 brew "eza"
 # Like neofetch, but much faster because written mostly in C

@@ -110,6 +110,7 @@ function y() {
 alias vim="nvim"
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
+alias ng="nvim -c Neogit"
 
 # Modern CLI replacements
 # eza reads its theme from here; LS_COLORS (set by Oh My Zsh) is blanked so it doesn't override the theme

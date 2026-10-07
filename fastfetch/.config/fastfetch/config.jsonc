@@ -1,0 +1,31 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "padding": { "top": 1, "left": 2, "right": 4 }
+  },
+  "display": {
+    "separator": "  ",
+    "color": { "keys": "blue" }
+  },
+  "modules": [
+    "break",
+    { "type": "title", "format": "{user-name}@{host-name}" },
+    "separator",
+    { "type": "os",       "key": "\uf179 OS" },
+    { "type": "host",     "key": "\uf109 Host" },
+    { "type": "kernel",   "key": "\uf085 Kernel" },
+    { "type": "uptime",   "key": "\uf017 Uptime" },
+    { "type": "packages", "key": "\uf1b2 Packages" },
+    "break",
+    { "type": "shell",        "key": "\uf120 Shell",    "keyColor": "magenta" },
+    { "type": "terminal",     "key": "\uf489 Terminal", "keyColor": "magenta" },
+    { "type": "terminalfont", "key": "\uf031 Font",     "keyColor": "magenta" },
+    "break",
+    { "type": "cpu",     "key": "\uf2db CPU",     "keyColor": "green" },
+    { "type": "gpu",     "key": "\uf26c GPU",     "keyColor": "green" },
+    { "type": "memory",  "key": "\uf233 Memory",  "keyColor": "green" },
+    { "type": "disk",    "key": "\uf0a0 Disk",    "keyColor": "green" },
+    { "type": "battery", "key": "\uf240 Battery", "keyColor": "green" },
+    "break",
+  ]
+}

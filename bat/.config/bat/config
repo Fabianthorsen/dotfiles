@@ -1,0 +1,11 @@
+# Theme settings
+--theme="Catppuccin Macchiato"
+
+# Line numbers
+--number
+
+# Git modifications indicator
+--diff
+
+# Show decorations
+--decorations=always

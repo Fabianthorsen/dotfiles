@@ -1,0 +1,44 @@
+[user]
+	name = Fabian Thorsen
+	email = fabian.thorsen@tetdigital.no
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+
+[init]
+	# new repos start on main, not master
+	defaultBranch = main
+[push]
+	# first `git push` on a new branch sets the upstream automatically
+	autoSetupRemote = true
+[fetch]
+	# drop references to branches deleted on the remote
+	prune = true
+[pull]
+	# rebase local commits instead of creating merge commits
+	rebase = true
+[rebase]
+	# stash uncommitted changes before rebasing, restore them after
+	autoStash = true
+[merge]
+	# conflict markers also show the original text
+	conflictStyle = zdiff3
+[diff]
+	algorithm = histogram
+[rerere]
+	# remember conflict resolutions and reuse them
+	enabled = true
+[branch]
+	# most recently used branches first
+	sort = -committerdate
+[commit]
+	# show the diff in the editor while writing the message
+	verbose = true
+[help]
+	autocorrect = prompt
+
+[alias]
+	st = status -sb
+	lg = log --graph --oneline --decorate --all
+	amend = commit --amend --no-edit
+	# undo the last commit, keep its changes staged
+	undo = reset --soft HEAD~1

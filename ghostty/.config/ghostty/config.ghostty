@@ -1,0 +1,35 @@
+# --- Font ---
+font-family = MonoLisa
+font-size = 15
+font-feature = ss02
+# a bit more line spacing
+adjust-cell-height = 10%
+
+# --- Theme & transparency ---
+theme = Catppuccin Macchiato
+background-opacity = 0.90
+background-blur = 20
+# padding takes the colour of the edge cells
+window-padding-color = extend
+# prevents unreadable colour combos
+minimum-contrast = 1.1
+
+# --- Cursor & mouse ---
+cursor-style = bar
+cursor-style-blink = false
+mouse-hide-while-typing = true
+copy-on-select = clipboard
+
+# --- Shell integration ---
+# no-cursor: stop the shell overriding cursor style
+# ssh-terminfo: make SSH hosts understand Ghostty
+# ssh-env: fall back to TERM=xterm-256color on hosts without Ghostty's terminfo
+shell-integration-features = no-cursor,ssh-terminfo,ssh-env
+
+# --- macOS ---
+# tabs in the titlebar; "hidden" for none
+macos-titlebar-style = tabs
+# makes Alt work properly in shell/vim
+macos-option-as-alt = left
+# restore windows/tabs on relaunch
+window-save-state = always

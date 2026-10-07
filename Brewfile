@@ -19,6 +19,8 @@ brew "fd"
 brew "fzf"
 # Handy way to save and run project-specific commands
 brew "just"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Organize software neatly under a single directory tree (e.g. /usr/local)

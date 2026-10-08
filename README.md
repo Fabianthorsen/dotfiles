@@ -50,3 +50,4 @@ Still manual:
 
 - `~/.config/exercism/` — contains an API token
 - `~/.config/anthropic/`, `~/.config/.claude/` — app state
+- `~/.ssh/` and any other keys or tokens — never put secrets in this repo; recreate them by hand on a new Mac

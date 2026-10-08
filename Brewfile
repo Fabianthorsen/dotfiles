@@ -7,6 +7,8 @@ brew "broot"
 brew "btop"
 # Command-line tool to interact with exercism.io
 brew "exercism"
+# GitHub command-line tool
+brew "gh"
 # Syntax-highlighted pager for diffs
 brew "git-delta"
 # Modern, maintained replacement for ls
@@ -29,9 +31,12 @@ brew "stow"
 brew "tmux"
 # Blazing fast terminal file manager written in Rust, based on async I/O
 brew "yazi"
+# Tmuxinator for managing Tmux workspace
+brew "tmuxinator"
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "nikitabobko/tap/aerospace", trusted: true
 # Terminal-based AI coding assistant
 cask "claude-code"
 # Terminal emulator (installed outside Homebrew on the first Mac, added by hand)
 cask "ghostty"
+

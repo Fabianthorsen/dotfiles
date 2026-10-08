@@ -8,7 +8,7 @@ default:
 
 # full setup on a new Mac: Homebrew packages, links, Oh My Zsh, yazi theme
 # (link runs before omz so the Oh My Zsh installer keeps our .zshrc instead of writing its own)
-install: brew link omz
+install: brew link omz tpm
     ya pkg install
 
 # install everything in the Brewfile
@@ -34,6 +34,14 @@ omz:
     for plugin in zsh-autosuggestions zsh-syntax-highlighting; do
         [ -d "{{omz_custom}}/$plugin" ] || git clone --depth 1 "https://github.com/zsh-users/$plugin" "{{omz_custom}}/$plugin"
     done
+
+# install tmux plugin manager (tpm) and the plugins listed in tmux.conf
+tpm:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    tpm="$HOME/.config/tmux/plugins/tpm"
+    [ -d "$tpm" ] || git clone --depth 1 https://github.com/tmux-plugins/tpm "$tpm"
+    "$tpm/bin/install_plugins"
 
 # link every package into $HOME
 link:

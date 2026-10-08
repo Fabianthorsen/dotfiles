@@ -38,7 +38,7 @@ cd ~/dotfiles && just install
 ```
 
 `just install` installs the `Brewfile`, links everything with stow, installs Oh My Zsh and its plugins,
-and downloads the yazi theme. If `link` complains about existing files, an app already created its own config;
+installs tpm and the tmux plugins, and downloads the yazi theme. If `link` complains about existing files, an app already created its own config;
 move it out of the way and run `just link` again (`just link-check` previews without changing anything).
 
 Still manual:

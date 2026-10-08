@@ -9,3 +9,6 @@ yazi/.config/yazi/plugins/
 
 # btop runtime log
 btop/.config/btop/btop.log
+
+# installed by tpm (`just tpm`)
+tmux/.config/tmux/plugins/

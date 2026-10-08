@@ -5,7 +5,7 @@ return {
 		event = "VeryLazy",
 		opts = {
 			options = {
-				theme = "catppuccin",
+				theme = "catppuccin-macchiato",
 				globalstatus = true,
 				component_separators = "",
 				section_separators = "",

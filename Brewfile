@@ -35,6 +35,22 @@ brew "tree-sitter-cli"
 brew "yazi"
 # Tmuxinator for managing Tmux workspace
 brew "tmuxinator"
+# Language Server for Bash
+brew "bash-language-server"
+# Language Server for the Lua language
+brew "lua-language-server"
+# Language Server Protocol for Markdown
+brew "marksman"
+# Autoformat shell script source code
+brew "shfmt"
+# Opinionated Lua code formatter
+brew "stylua"
+# TOML toolkit written in Rust
+brew "taplo"
+# Language servers for HTML, CSS, JavaScript, and JSON extracted from vscode
+brew "vscode-langservers-extracted"
+# Language Server for Yaml Files
+brew "yaml-language-server"
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "nikitabobko/tap/aerospace", trusted: true
 # Terminal-based AI coding assistant

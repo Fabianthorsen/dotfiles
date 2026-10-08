@@ -19,6 +19,8 @@ brew "fastfetch"
 brew "fd"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Handy way to save and run project-specific commands
 brew "just"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -31,6 +33,8 @@ brew "stow"
 brew "tmux"
 # Parser generator tool used in many open source projects
 brew "tree-sitter-cli"
+# Process YAML, JSON, XML, CSV and properties documents from the CLI
+brew "yq"
 # Blazing fast terminal file manager written in Rust, based on async I/O
 brew "yazi"
 # Tmuxinator for managing Tmux workspace

@@ -29,6 +29,8 @@ brew "ripgrep"
 brew "stow"
 # Terminal multiplexer
 brew "tmux"
+# Parser generator tool used in many open source projects
+brew "tree-sitter-cli"
 # Blazing fast terminal file manager written in Rust, based on async I/O
 brew "yazi"
 # Tmuxinator for managing Tmux workspace

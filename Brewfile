@@ -35,6 +35,8 @@ brew "tmux"
 brew "tree-sitter-cli"
 # Process YAML, JSON, XML, CSV and properties documents from the CLI
 brew "yq"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
 # Blazing fast terminal file manager written in Rust, based on async I/O
 brew "yazi"
 # Tmuxinator for managing Tmux workspace
@@ -55,8 +57,6 @@ brew "taplo"
 brew "vscode-langservers-extracted"
 # Language Server for Yaml Files
 brew "yaml-language-server"
-# AeroSpace is an i3-like tiling window manager for macOS
-cask "nikitabobko/tap/aerospace", trusted: true
 # Terminal-based AI coding assistant
 cask "claude-code"
 # Terminal emulator (installed outside Homebrew on the first Mac, added by hand)

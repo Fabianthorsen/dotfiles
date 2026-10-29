@@ -55,10 +55,22 @@ _fzf_compgen_dir() { fd --type d --hidden --exclude .git . "$1" }
 export FZF_CTRL_T_OPTS="--preview 'bat --color=always --style=numbers --line-range=:300 {}'"
 export FZF_ALT_C_OPTS="--preview 'eza --tree --level=2 --icons --color=always {}'"
 source <(fzf --zsh)
+eval "$(zoxide init zsh)"
 
 source "$HOME/.config/broot/launcher/bash/br"
-[[ -z "$TMUX" ]] && fastfetch
+
+# Auto-start tmux (attach to "default" or create it); skip in IDE terminals
+if [[ -z "$TMUX" && -o interactive && "$TERM_PROGRAM" != "vscode" ]]; then
+  exec tmux new-session -A -s default
+fi
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+alias idea="/Applications/IntelliJ\ IDEA.app/Contents/MacOS/idea"
+# Added by dbt v2 extension (ensure dbt binary dir on PATH)
+if [[ ":$PATH:" != *":$HOME/.local/bin:"* ]]; then
+  export PATH="$HOME/.local/bin:$PATH"
+fi
+# Added by dbt v2 extension
+alias dbtf="$HOME/.local/bin/dbt"

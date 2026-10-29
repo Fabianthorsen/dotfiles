@@ -1,6 +1,7 @@
 [user]
 	name = Fabian Thorsen
 	email = fabian.thorsen@tetdigital.no
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICbQVqWkh590dDEtcb9WPrbBKDpDUUeB++MaIHdnAPY7
 [url "git@github.com:"]
 	insteadOf = https://github.com/
 
@@ -40,6 +41,7 @@
 [commit]
 	# show the diff in the editor while writing the message
 	verbose = true
+	gpgsign = true
 [help]
 	autocorrect = prompt
 
@@ -49,3 +51,7 @@
 	amend = commit --amend --no-edit
 	# undo the last commit, keep its changes staged
 	undo = reset --soft HEAD~1
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign

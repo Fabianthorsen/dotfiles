@@ -171,7 +171,7 @@ desc = "Maximize or restore the preview pane"
 
 [[mgr.prepend_keymap]]
 on   = [ "g", "D" ]
-run  = "shell --block -- git --no-pager diff HEAD --color=always -- %h | delta --paging=never --width=120 | less -R"
+run  = "shell --block -- DELTA_PAGER='less -R' git -c delta.side-by-side=false diff HEAD -- %h"
 desc = "Git diff of the hovered file (via core.pager)"
 
 [[mgr.prepend_keymap]]

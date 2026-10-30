@@ -1,4 +1,5 @@
 tap "nikitabobko/tap"
+tap "scalr/scalr"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # New way to see and navigate directory trees
@@ -23,6 +24,12 @@ brew "fzf"
 brew "jq"
 # Handy way to save and run project-specific commands
 brew "just"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
+# Tool that can switch between kubectl contexts easily and create aliases
+brew "kubectx"
+# Command-line tool for Scalr (Terraform automation)
+brew "scalr/scalr/scalr"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Search tool like grep and The Silver Searcher
@@ -58,7 +65,7 @@ brew "vscode-langservers-extracted"
 # Language Server for Yaml Files
 brew "yaml-language-server"
 # Terminal-based AI coding assistant
-cask "claude-code"
+cask "claude-code@latest"
 # Terminal emulator (installed outside Homebrew on the first Mac, added by hand)
 cask "ghostty"
 
